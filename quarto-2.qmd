@@ -1,0 +1,19 @@
+---
+title: "My Second Quarto Document"
+author: "kaitlinpowell17"
+format: html
+execute:
+  echo: false
+---
+
+```{r}
+#| label: setup
+#| message: false
+library(tidyverse)
+2 * 2
+```
+
+```{r}
+ggplot(mtcars, aes(x = wt, y = mpg)) +
+  geom_point()
+```
